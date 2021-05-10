@@ -20,5 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
       item.innerText = events[i]
       list.appendChild(item)
     }
+    events = []
   }
 });
